@@ -1,14 +1,8 @@
-import Link from "next/link";
-
-export default function Page() {
+export default function Home() {
   return (
     <main>
-      <h1>CPRG 306: Web Development 2 - Assignments</h1>
-      <ul>
-        <li>
-          <Link href="/week-2">Week 2</Link>
-        </li>
-      </ul>
+      <h1>Welcome to CPRG 306 Assignments</h1>
+      <p>Use the URL <code>/week-2</code> to view your Week 2 assignment.</p>
     </main>
   );
 }
