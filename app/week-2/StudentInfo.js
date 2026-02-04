@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function StudentInfo() {
   return (
     <div>
-      <h2>Jaspreet</h2>
+      <h2>Jaspreet Kaur</h2>
       <p>
         GitHub:{" "}
         <Link href="https://github.com/000931438/cprg306-assignments">

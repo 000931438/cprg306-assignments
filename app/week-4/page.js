@@ -1,15 +1,17 @@
 import Link from "next/link";
-import StudentInfo from "./StudentInfo";
+import ItemList from "./item-list";
 
 export default function Page() {
   return (
     <main className="p-8 max-w-2xl mx-auto">
+
       <Link href="/" className="text-blue-600 underline mb-4 inline-block">
          Back to Home
       </Link>
 
       <h1 className="text-3xl font-bold mb-6 text-center">Shopping List</h1>
-      <StudentInfo />
+
+      <ItemList />
     </main>
   );
 }
