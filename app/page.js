@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center bg-gray-100 p-6">
+    <main className="min-h-screen flex flex-col items-center justify-center bg-slate-900 p-6 text-slate-100">
       
       {/* Title */}
-      <h1 className="text-4xl font-bold mb-10 text-gray-800 text-center">
+      <h1 className="text-4xl font-extrabold mb-10 text-center tracking-wide">
         CPRG 306: Web Development 2
       </h1>
 
@@ -15,7 +15,7 @@ export default function Page() {
         {/* Week 2 */}
         <Link
           href="/week-2"
-          className="text-center border-4 border-green-600 text-green-700 font-semibold py-4 rounded-full text-xl hover:bg-green-50 transition"
+          className="text-center border border-slate-600 bg-slate-800 hover:bg-slate-700 text-slate-100 font-semibold py-4 rounded-xl text-xl transition shadow-md hover:shadow-lg"
         >
           Week-2
         </Link>
@@ -23,7 +23,7 @@ export default function Page() {
         {/* Week 3 */}
         <Link
           href="/week-3"
-          className="text-center border-4 border-green-600 text-green-700 font-semibold py-4 rounded-full text-xl hover:bg-green-50 transition"
+          className="text-center border border-slate-600 bg-slate-800 hover:bg-slate-700 text-slate-100 font-semibold py-4 rounded-xl text-xl transition shadow-md hover:shadow-lg"
         >
           Week-3
         </Link>
@@ -31,9 +31,17 @@ export default function Page() {
         {/* Week 4 */}
         <Link
           href="/week-4"
-          className="text-center border-4 border-green-600 text-green-700 font-semibold py-4 rounded-full text-xl hover:bg-green-50 transition"
+          className="text-center border border-slate-600 bg-slate-800 hover:bg-slate-700 text-slate-100 font-semibold py-4 rounded-xl text-xl transition shadow-md hover:shadow-lg"
         >
           Week-4
+        </Link>
+
+        {/* Week 5 */}
+        <Link
+          href="/week-5"
+          className="text-center border border-slate-600 bg-slate-800 hover:bg-slate-700 text-slate-100 font-semibold py-4 rounded-xl text-xl transition shadow-md hover:shadow-lg"
+        >
+          Week-5
         </Link>
 
       </div>
